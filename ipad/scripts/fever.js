@@ -103,33 +103,15 @@ var Fever =
 		// prevent conflicting animations
 		if (elem.animateId)
 		{
-			window.clearInterval(elem.animateId);
 			elem.animateId = null;
 		};
-		
 		var callback = (arguments.length == 4) ? arguments[3] : function(){};
 		var animate = function()
 		{
-			// only animating position for now so px is hardcoded
-			var currentValue	= parseInt(css(elem, property));
-			var distance 		= Math.floor((Math.abs(currentValue - value) / 2) * 1.7);
-			var direction 		= (currentValue > value) ? -1 : 1;
-			var updatedValue 	= currentValue + (direction * distance);
-			
-			if (distance <= 1)
-			{
 				elem.style[property] = value + 'px';
-				// our work is done
-				window.clearInterval(elem.animateId);
-				callback();
-			}
-			else
-			{
-				elem.style[property] = updatedValue + 'px';
-			};	
+				callback();	
 		};
 		animate();
-		elem.animateId = window.setInterval(animate, 50);
 	}
 };
 
