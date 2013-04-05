@@ -993,9 +993,21 @@ ul.source-list li i.favicon
 .item-content
 {
 	margin-right: 8px;
+}
+
+#item .item-content
+{
 	width: 94% !important;
 	max-width: 94%;
 	font-size: 16px;
+	line-height: 1.5;
+}
+
+.landscape #item .item-content
+{
+	width: 94% !important;
+	max-width: 94%;
+	font-size: 18px;
 	line-height: 1.5;
 }
 
