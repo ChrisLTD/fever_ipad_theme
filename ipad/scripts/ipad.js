@@ -44,7 +44,7 @@ Fever.iPhone =
 		
 		readOnScroll 	: 0,
 		readOnBackOut 	: 0,
-		viewInApp		: 1,
+		viewInApp		: 0,
 		
 		autoRead	: 1
 	},
