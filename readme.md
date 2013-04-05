@@ -3,6 +3,8 @@
 
 This iPad theme for Fever takes the iPhone theme, stretches the width for the iPad screen (portrait and landscape), and removes the animations to make it feel snappier.
 
+![Screenshot](https://github.com/chrisltd/fever_ipad_theme/raw/master/screenshot.png)
+
 ## Requirements
 * Working installation of [Fever](http://feedafever.com/) 1.28 by Shaun Inman.
 * Willingness to possibly break that installation by installing this theme. In all seriousness, installing this theme might break the auto-update feature of Fever. At the very least you will have to edit your `firewall/app/libs/fever.php` after every update.
