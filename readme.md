@@ -13,7 +13,8 @@ This iPad theme for Fever takes the iPhone theme, stretches the width for the iP
 1. Backup your Fever installation.
 2. Copy the `ipad` directory into `firewall/app/views/` so that you have a `firewall/app/views/ipad` directory.
 3. Go into your `firewall/app/libs/fever.php` and replace the view_file() function on approximately line 800 with this:
-```
+
+``` php
 /**************************************************************************
  view_file()
  **************************************************************************/
