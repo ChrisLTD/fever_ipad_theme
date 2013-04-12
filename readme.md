@@ -42,4 +42,5 @@ function view_file($base_file_name)
 
 ## Known Issues
 * You may run into file permission issues that will keep you from modifying anything in your `firewall` folder. Changing the `fever.php` file `views` folder so your user owns them should be enough.
-* The icons aren't retina.
+* The icons aren’t retina.
+* This theme won’t work on tablets besides the iPad and iPad mini.
