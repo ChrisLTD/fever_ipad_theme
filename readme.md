@@ -5,6 +5,9 @@ This iPad theme for Fever takes the iPhone theme, stretches the width for the iP
 
 ![Screenshot](https://github.com/chrisltd/fever_ipad_theme/raw/master/screenshot.png)
 
+## *Special Note*
+After a Fever update, this theme is overwritten and will need to be reinstalled.
+
 ## Requirements
 * Working installation of [Fever](http://feedafever.com/) 1.28+ by Shaun Inman.
 * Willingness to possibly break your Fever installation by installing this theme.
@@ -41,7 +44,7 @@ function view_file($base_file_name)
 ```
 
 ## Known Issues
-* After a Fever update, the theme files are overwritten and you will have to reinstall them.
+* After a Fever update, this theme is overwritten and will need to be reinstalled.
 * You may run into file permission issues that will keep you from modifying anything in your `firewall` folder. Changing the `fever.php` file `views` folder so your user owns them should be enough.
 * The icons aren’t retina.
 * This theme won’t work on tablets besides the iPad and iPad mini.
